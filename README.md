@@ -1,14 +1,10 @@
  [使用参考](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # 我的的OpenWrt云编译
-AC58U
-
-ACRH17
-
-HiWiFi4
-
-WPR003N
-
+AC58U  
+ACRH17  
+HiWiFi4  
+WPR003N  
 XiaoYu-C3
 
 ## Usage
