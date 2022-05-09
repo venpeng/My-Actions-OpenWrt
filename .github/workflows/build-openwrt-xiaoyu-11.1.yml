@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt For AC58U 11.1
+name: Build OpenWrt For XIAOYU_C3 11.1
 
 on:
   repository_dispatch:
@@ -23,9 +23,9 @@ env:
   REPO_URL: https://github.com/venpong/lede.git
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: config/ac58u/.config
-  DIY_P1_SH: sh/ac58u/diy-part1.sh
-  DIY_P2_SH: sh/ac58u/diy-part3.sh
+  CONFIG_FILE: config/xiaoyu/.config
+  DIY_P1_SH: /sh/xiaoyu/diy-part1.sh
+  DIY_P2_SH: /sh/xiaoyu/diy-part3.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false

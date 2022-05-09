@@ -6,18 +6,15 @@
 # See /LICENSE for more information.
 #
 # https://github.com/P3TERX/Actions-OpenWrt
-# File name: diy-part2-ac58u.sh
+# File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
 #echo '修改机器名称'
-#sed -i 's/OpenWrt/AC58U/g' package/base-files/files/bin/config_generate
+#sed -i 's/OpenWrt/Openwrt/g' package/base-files/files/bin/config_generate
 
 #echo '修改网关地址'
-sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
-
-#修正连接数（by ベ七秒鱼ベ）
-#sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
+#sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 #echo '修改时区'
 #sed -i "s/'UTC'/'CST-8'\n        set system.@system[-1].zonename='Asia\/Shanghai'/g" package/base-files/files/bin/config_generate
