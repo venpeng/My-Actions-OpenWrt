@@ -4,8 +4,7 @@
 AC58U  
 ACRH17  
 HiWiFi4  
-WPR003N  
-XiaoYu-C3
+WPR003N
 
 ## Usage
 
